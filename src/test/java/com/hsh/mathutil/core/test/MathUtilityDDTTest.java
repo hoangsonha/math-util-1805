@@ -35,7 +35,7 @@ public class MathUtilityDDTTest {
     
     @ParameterizedTest
     @MethodSource("initData")
-    public void testFactorialGivenRightArgumentReturnWell(int n, long expected) {
-        assertEquals(expected, MathUtility.getFactorial(n));
+    public void testFactorialGivenRightArgumentReturnWell(int n, long expectted) {
+        assertEquals(expectted, MathUtility.getFactorial(n));
     }
 }
