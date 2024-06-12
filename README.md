@@ -12,6 +12,8 @@ DDT
 * A CI script to demonstrate the Continus Integration using
 Github Actions
 
+* A demotration on what is the regression test (kiem thu hoi quy)
+
 * and more...
 
 ## Screenshots
