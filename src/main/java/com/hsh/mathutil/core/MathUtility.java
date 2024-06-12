@@ -20,15 +20,18 @@ public class MathUtility {
         
         if(n < 0 || n > 20)
                throw new IllegalArgumentException("invalid n, n must be in [0 - 20]");
-        if(n == 0)
+        if(n == 0 || n == 1)
             return 1;
         
-        for (int i = 1; i <= n; i++) {
-            product *= i;
-            
-        }
-        return product;
+        return n * getFactorial(n-1);
     }   
     
     
 }
+
+
+// test lại khi sửa code
+
+// junit : việc test lại code cực nhanh, chỉ cần thấy màu xanh (đưa unit test và cài CI trên github)
+
+// kiểm thử những cái đã kiểm thử gọi là regression, nên dùng tự động bằng jnit test framework
