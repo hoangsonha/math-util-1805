@@ -13,10 +13,19 @@ import javax.swing.JOptionPane;
  */
 public class Main {
     
+
     public static void sayHiFromLocal() {
-        
+        System.out.println("Hello local");
     }
     
+
+    // from server 
+    public static void sayHiFromServer() {
+        System.out.println("Hello Server");
+    }
+    
+    
+
     public static void main(String[] args) {
         
         // cách kiểm thử số 2 -  in ra tập tin or màn hình
