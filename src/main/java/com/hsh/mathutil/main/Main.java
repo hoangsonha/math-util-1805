@@ -13,6 +13,10 @@ import javax.swing.JOptionPane;
  */
 public class Main {
     
+    public static void sayHiFromLocal() {
+        
+    }
+    
     public static void main(String[] args) {
         
         // cách kiểm thử số 2 -  in ra tập tin or màn hình
