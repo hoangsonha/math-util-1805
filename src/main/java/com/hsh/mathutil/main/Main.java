@@ -13,6 +13,12 @@ import javax.swing.JOptionPane;
  */
 public class Main {
     
+    // from server 
+    public static void sayHiFromServer() {
+        
+    }
+    
+    
     public static void main(String[] args) {
         
         // cách kiểm thử số 2 -  in ra tập tin or màn hình
