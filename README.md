@@ -10,7 +10,9 @@
 DDT
 
 * A CI script to demonstrate the Continus Integration using
-Github Actions
+Github Actions with Maven
+
+* A demostration on how to produce confliction and how to merge the code within teamwork
 
 * and more...
 
